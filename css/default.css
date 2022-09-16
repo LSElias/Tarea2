@@ -1,0 +1,239 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background:white url("../img/rombososcuros.jpg");
+    background-repeat: repeat;
+    font-size: 11px;
+    font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif ;
+    color: black;
+    line-height: 18px;
+}
+
+sup{
+    font-size: 0.5em;
+}
+
+p{
+    margin-bottom: 14px ;
+    text-align: justify;
+}
+
+#outer{
+    width: 70%;
+    height: max-content;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: white ;
+    border: initial;
+    overflow: visible;
+}
+
+#header{
+    max-width: 100%;
+    max-height: 120px;
+}
+#header #splash{
+    float: right;
+    width: 80%;
+    max-width: 100%;
+    height: 170px;
+}
+
+#header #logito{
+    float: left;
+    width: 20%;
+    max-width: 100%;
+    height: 170px;
+    background: #303331 url("../img/romb.jpg") no-repeat;
+    background-size: cover;
+}
+
+#hwritten{
+    max-width: 100%;
+    color: white;
+    background-color: #2f3030;
+    position: unset;
+    border-top: 10px white; 
+    text-align: center;    
+    line-height: 30px;
+}
+
+#hwritten h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 30px;   
+    letter-spacing: -1px;
+}
+
+#hwritten sup{
+    color: #dbc012
+}
+
+#foto_personal{
+    float:left;
+    width: 15%;
+    max-width: 100%;
+    height: 15%;
+    border-radius: 50%
+    
+}
+
+#main{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#ffdd00;
+}
+
+#infope{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -1px;
+    padding: 1% 5% 2% 5%; 
+    border-bottom: #dbc012;
+    border-bottom-style: solid;
+}
+
+#infope h1{
+    color:rgb(61, 41, 3);
+    padding-left: 19%;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+}
+#infope p{
+    padding-left: 19%;
+    display: block;
+}
+
+#contprincipal{
+    box-sizing: content-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    margin-top: 3px;
+    line-height: 18px;
+    letter-spacing: -1px;
+    font-size: 180%;
+    max-width: 100%;
+    
+}
+
+#contenedor{
+    display: flex;
+    box-sizing: content-box;
+    height: 270px;
+    border-bottom: #2f3030;
+    border-bottom-style: double;
+}
+
+#contprincipal #leftsito{
+    font-size: 18px;
+    box-sizing: content-box;
+    float: left;
+    width: 48%;
+    padding: 0% 0% 5% 2%;
+    height: 200px;
+    line-height: 25px;
+    
+}
+
+#contprincipal #leftsito #Experiencia{
+    width: 100%;
+    background-color: #fff29e;
+    padding: 2% 0% 2% 10%;
+    border: 2px rgb(194, 155, 29);
+    border-style: groove;
+}
+
+#contprincipal #leftsito #Habilidades{
+    width: 100%;
+    background-color: #dacd7d;
+    padding: 2% 0% 2% 10%;
+    border: 2px rgb(194, 155, 29);
+    border-style: groove;
+}
+
+#contprincipal #leftsito #Habilidades a{
+    color:#e03c13;
+}
+
+#contprincipal #rightsito{
+    font-size: 18px;
+    box-sizing: content-box;
+    float: right;
+    width: 48%;
+    line-height: 25px;
+    padding: 0% 2% 5% 0%;
+}
+
+#contprincipal #rightsito #cursos{
+    max-width: 100%;
+    width: 100%;
+    background-color:  #dacd7d;
+    padding: 2% 0% 2% 10%;
+    border: 2px rgb(194, 155, 29);
+    border-style: groove;
+}
+
+#contprincipal #rightsito #Hobbies{
+    width: 100%;
+    background-color: #fff29e;
+    padding: 2% 0% 2% 10%;
+    border: 2px rgb(194, 155, 29);
+    border-style: groove;
+}
+
+#formacion{
+    color:black;
+    line-height: 18px;
+    padding: 0px 5px 3% 5px;
+}
+
+#formacion h1{
+    text-align: center;    
+}
+
+#tabla{
+    padding: 5px 5px 5px 5px;
+    font-size: 15px;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+}
+
+#tabla tbody th{
+    background-color: #dacd7d;
+    border:#2f3030;
+    padding: 5px 5px 5px 5px;
+}
+
+#tabla tbody td{
+    background-color: #fff29e;
+    border:#2f3030;
+    padding: 5px 5px 5px 5px;
+}
+
+#footer{
+    background: #e0da82;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+    color: #44351f;
+}
+
+#footer a{
+    
+    text-decoration: none;
+}
+
+.social{
+    padding: 0px 5px 0px 5px;
+    height: 25px;
+    width: 25;
+}

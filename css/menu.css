@@ -1,0 +1,32 @@
+#menu{
+    display:flex;
+    height:auto;
+    margin-bottom: 10px;
+    background-color: black;
+    line-height: 30px;
+}
+
+#container .principal{
+    float:left;
+    color:white;
+    font-size: 10px;
+    font: bolder;
+    border-right: 1px solid #ffdd00;
+    text-decoration:center;
+    padding: 10px 25px 10px 25px;
+
+}
+
+#container a:hover{
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    background-color: #ffdd00; 
+}
+
+ul{
+    list-style-type: square;
+}
+#container a.last{
+    border-right: none;
+}
